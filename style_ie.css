@@ -1,0 +1,84 @@
+body,HTML {text-align:center;height:100%;overflow:hidden}
+
+.eebuttonbar_top {position:relative;text-align:center;width:776px; margin-top:0px; margin-bottom:5px;padding-top:40px;border: 0px solid blue}
+
+
+#centered {width: 877px;height:595px; margin-left: auto; margin-right: auto; text-align:center;background-color:transparent;border:1px solid red}
+#Igeo1{min-height:641px;border:1px solid yellow;background:transparent}
+div#panel1 {display:block;margin:0px auto;background:#000000 url(canvas_MTT.png) top left no-repeat;width:877px;min-height:645px;padding-left:0px;border-bottom:0px solid green}
+div#panel2 {display:none;margin:0px auto;background:#000000 url(canvas_MTT.png) top left no-repeat;width:877px;min-height:645px;padding-left:0px;border:0px solid blue}
+
+div#help3 {display:block;color:#339966;margin-left:2px;border:1px solid yellow;min-height:650px;font-size:14px;padding:5px;background:#000000;}
+
+div#text {margin-left:-10px;max-width:754px;max-height:100%;border:0px solid red}
+
+
+.demo  {color:#888888; background-color:#000000; layer-background-color:#000000;text-align:left;font-family:Arial, Tahoma;font-size:12px; 
+        position:absolute;margin:35px 0 0 -10px ;width:790px; height:575px;padding-left:-25px;border:0px solid green;
+        z-index:99;  visibility:hidden;overflow:hidden}
+
+.eetabs {color: blue;font-family:Arial;font-size:16px;border-bottom:0px solid red}
+
+input.button1 {border:1px solid  #444;
+	float:right;
+	background:black;
+	color:green;
+	cursor:pointer;
+	margin-top:-28px;
+	width:160px;
+	font-size:11px;
+	color:#2B60DE;
+	padding:2px;cursor:pointer;  max-height:23px;
+	}
+
+input.button2 {border:1px solid  #444;
+	float:left;
+	background:black;
+	color:green;
+	cursor:pointer;
+	margin-top:0px;
+	width:160px;
+	font-size:11px;
+	color:#2B60DE;
+	padding:2px;
+	margin-left:2px;margin-right:102px;cursor:pointer;  height:23px;
+	}
+
+
+input.button1:hover {border:1px solid  #2B60DE;
+	float:right;
+	background:black;
+	color:green;
+	cursor:pointer;
+	margin-top:0px;
+	width:160px;
+	font-size:11px;
+	color:green;
+	padding:2px;cursor:pointer; min-height:23px;line-heigh:23px
+	}
+
+input.button2:hover {border:1px solid  #2B60DE;
+	float:left;
+	background:black;
+	color:green;
+	cursor:pointer;
+	margin-top:0px;
+	width:160px;
+	font-size:11px;
+	color:green;
+	padding:2px;
+	margin-right:102px;cursor:pointer;  height:23px;
+	}
+
+
+
+
+input.btnhov3 { font-size:20px;
+	  color:blue; 
+	  border:0px solid #000077;
+	  background: #000;
+	  height:28px;
+	  width:200px;
+	  cursor:pointer;
+	  padding-bottom:0px
+	}
