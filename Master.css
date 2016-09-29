@@ -217,8 +217,8 @@ color:silver;
 
 .demo  {color:#70E01B; background-color:#000000;text-align:left;font-family:Arial, Tahoma;font-size:12px;position:absolute;margin:36px 0 0 -6px ;width:780px; height:568px;padding:5px 10px 0 6px;z-index:-99;visibility:hidden;color:blue; border:0px solid green}
 
-div#panel1 {display:block;margin:0 auto;background:#000000 url(https://raw.githubusercontent.com/Tikkka/avipro/master/canvas_MTT.PNG) top left no-repeat;width:833px;height:645px;padding-left:45px;}
-div#panel2 {display:none;margin:0 auto;background:#000000 url(https://raw.githubusercontent.com/Tikkka/avipro/master/canvas_MTT.PNG) top left no-repeat;width:833px;height:645px;padding-left:45px;}
+div#panel1 {display:block;margin:0 auto;background:#000000 url(canvas_MTT.png) top left no-repeat;width:833px;height:645px;padding-left:45px;}
+div#panel2 {display:none;margin:0 auto;background:#000000 url(canvas_MTT.png) top left no-repeat;width:833px;height:645px;padding-left:45px;}
 
 
 
