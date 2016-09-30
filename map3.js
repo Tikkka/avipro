@@ -59,7 +59,7 @@ google.maps.event.addListener(marker, 'mouseout', (function(marker, i) {
 google.maps.event.addListener(marker, 'click', (function(marker, i) {
         
  return function() {
- map.setZoom(14);
+ map.setZoom(13);
  map.setCenter(marker.getPosition());
 
 }
@@ -152,10 +152,10 @@ var marker = new google.maps.Marker({
 
 google.maps.event.addListener(map, 'zoom_changed', function() {
   var zoom = map.getZoom();
-  if (zoom >= 14) {
+  if (zoom >= 13) {
   path.setOptions({strokeWeight: 0});
   } else {
-    path.setOptions({strokeWeight: 0});
+    path.setOptions({strokeWeight: 2});
   }
 
 google.maps.event.addDomListener(window, 'load', initialize);
