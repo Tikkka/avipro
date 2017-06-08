@@ -2988,7 +2988,7 @@ onmouseover="this.className='btn btnhov'" onmouseout="this.className='btn'" >
 function reset_onclick(x){document.formc.reset();postcode();recalc_onclick('');};function print_all(){var current=0;var target;for(var ii=1;ii<=2;ii++){target=document.getElementById("panel"+ii);if(target!=undefined){if(target.style.display=='block'){current=ii;}else{target.style.display='block';}}}window.print();for(var ii=1;ii<=2;ii++){target=document.getElementById("panel"+ii);if(target!=undefined){if(current!=ii){target.style.display='none';}}}}function postcode(){};function eequerystring(){var querystring=document.location.search;if(querystring.length>0){variables=(querystring.substring(1)).split("&");var variable;var key;var value;for(var ii=0;ii<variables.length;ii++){variable=variables[ii].split("=");key=unescape(variable[0]);value=unescape(variable[1]);if(document.formc[key]!=null){document.formc[key].value=value;}}}}function initial_update(){postcode('');eequerystring();recalc_onclick('');document.getElementById("loading").style.display="none"; document.body.style.cursor = ""}
 </script>
 </form>
-<script type="text/javascript" src="2500.js" /></script>
+<script type="text/javascript" src="2501.js" /></script>
 
 <!-- SpreadsheetConverter Body end -->
 
